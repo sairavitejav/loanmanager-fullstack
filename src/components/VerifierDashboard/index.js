@@ -8,7 +8,6 @@ import { FaRupeeSign } from "react-icons/fa";
 import { TbCash } from "react-icons/tb";
 import { FaSortAmountUp } from "react-icons/fa";
 import { FaFilter } from "react-icons/fa";
-import { BallTriangle } from "react-loader-spinner";
 import { CgProfile } from "react-icons/cg";
 import Header from "../Header";
 import SideHeader from "../SideHeader";
@@ -144,7 +143,7 @@ const VerifierDashboard = () => {
             </div>
             {loading ? (
               <div className="loader-container">
-                <BallTriangle />
+                <h1>Loading...</h1>
               </div>
             ) : (
               <table className="loan-table">

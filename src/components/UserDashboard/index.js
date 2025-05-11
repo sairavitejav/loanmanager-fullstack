@@ -5,7 +5,6 @@ import { MdCurrencyRupee } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
 import { FaSortAmountUp } from "react-icons/fa";
 import { FaFilter } from "react-icons/fa";
-import { BallTriangle } from "react-loader-spinner";
 import { CgProfile } from "react-icons/cg";
 import HomeHeader from "../HomeHeader";
 import "./index.css";
@@ -118,7 +117,7 @@ const UserDashboard = () => {
           </div>
           {loading ? (
             <div className="loader-container">
-              <BallTriangle />
+              <h1>Loading...</h1>
             </div>
           ) : (
             <table className="loan-table">
