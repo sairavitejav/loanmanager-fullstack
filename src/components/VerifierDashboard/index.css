@@ -1,0 +1,109 @@
+.verifier-dashboard{
+    display: flex;
+}
+.verifier-dashboard-content{
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 80vw;
+}
+.verifier-dashboard-header {
+    display: flex;
+    align-items: center;
+    color: #0A512F;
+    font-size: 20px;
+}
+.verifier-dashboard-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.verifier-dashboard-card{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.card-icon{
+    background-color: #0A512F;
+    color: #ffffff;
+    padding: 38px;
+    font-size: 35px;
+}
+.card-content{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 180px;
+    color: #000000;
+    font-weight: bold;
+}
+.verifier-loan-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.verifier-loan-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.verifier-filters-name{
+    color: #4B506D;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.verifier-filter-icons {
+    color: #C5C7CD;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+}
+
+.loan-table-th {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.officer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+small {
+  display: block;
+  color: #888;
+  margin-top: 4px;
+}
+.pending-button{
+    background-color: #FEC400;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    width: 100px;
+}
+.verified-button{
+    background-color: #29CC97;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+}

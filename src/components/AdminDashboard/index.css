@@ -1,0 +1,108 @@
+.admin-dashboard{
+    display: flex;
+    
+}
+.admin-dashboard-content{
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 80vw;
+}
+.admin-dashboard-header {
+    display: flex;
+    align-items: center;
+    color: #0A512F;
+    font-size: 20px;
+}
+.admin-dashboard-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.admin-dashboard-card{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.admin-card-icon{
+    background-color: #0A512F;
+    color: #ffffff;
+    padding: 38px;
+    font-size: 35px;
+}
+.admin-card-content{
+    background-color: #ffffff;
+    padding: 10px;
+    width: 145px;
+    color: #000000;
+    font-weight: bold;
+}
+.admin-loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.admin-loan-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.admin-loan-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin-filters-name{
+    color: #4B506D;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.admin-filter-icons {
+    color: #C5C7CD;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+}
+
+.loan-table-th {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.officer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+small {
+  display: block;
+  color: #888;
+  margin-top: 4px;
+}
+.admin-verified-button{
+    background-color: #FEC400;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    width: 100px;
+}
+.admin-approved-button{
+    background-color: #29CC97;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    width: 100px;
+}

@@ -1,0 +1,48 @@
+.Application-header{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.loan-application-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.input-label{
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.input-field{
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 20px;
+    outline: none;
+}
+.submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+}
+.submit-btn{
+    background-color: #0A5210;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}

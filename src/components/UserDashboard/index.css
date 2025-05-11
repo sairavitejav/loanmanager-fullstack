@@ -1,0 +1,210 @@
+.user-dashboard{
+    background-color: #cdd1cf;
+    min-height: 90vh;
+    padding: 10px;
+}
+.user-detailed-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.user-inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.user-scan{
+    padding: 30px;
+    background-color: #6B9908;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.currency{
+    display: flex;
+}
+.deposit-head{
+    color: #6B9908;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.ruppee-icon{
+    color: #6B9908;
+    font-size: 15px;
+
+}
+.value {
+    color: #6B9908;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
+.loan-button{
+    color: #ffffff;
+    background-color: #0A512F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.transactions-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.borrow{
+    background-color: #6B99081A;
+    color: #000000;
+    width: 280px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    cursor: pointer;
+}
+.transact {
+    background-color: #ffffff;
+    color: #000000;
+    width: 280px;
+    text-align: center;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    box-shadow: 0px 0px 10px #000000;
+    cursor: pointer;
+}
+.deposit {
+    background-color: #ffffff;
+    color: #000000;
+    width: 280px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    cursor: pointer;
+}
+.transaction {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.input-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000000;
+    display: flex;
+    align-items: center;
+    width: 840px;
+}
+.search-icon {
+    color: #7C7C7C;
+    font-size: 20px;
+    padding: 10px;
+}
+.input{
+    width: 780px;
+    color: #7C7C7C;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.loan-container{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.loan-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filters-name{
+    color: #4B506D;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.filter-icons {
+    color: #C5C7CD;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.loan-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+}
+
+.loan-table-th {
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.officer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+small {
+  display: block;
+  color: #888;
+  margin-top: 4px;
+}
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.pending-class{
+    background-color: #FEC400;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+
+}
+.verified-class{
+    background-color: #29CC97;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+
+}
+.approved-class{
+    background-color: #1829C7;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e3dddc;
+    border-bottom: 1px solid #8a8888;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-header-search{
+    display: flex;
+    align-items: center;
+}
+.nav-header-user{
+    display: flex;
+    align-items: center;    
+}
+.nav-header-logo{
+    cursor: pointer;
+    
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.header{
+    color: #0A512F;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.icons{
+    font-size: 25px;
+    color: #064921;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.user-types{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #064921;
+    font-size: 20px;
+    cursor: pointer;
+}
