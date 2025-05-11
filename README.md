@@ -15,7 +15,7 @@
 1. # Vercel for Frontend deployment
 2. # Render for Backend deployment
 
-# Functional Requirements
+# Functionalities
 # I. User Role and Routes:
 # User:
 1. # Users can fill out an application form for a loan and submit it.
