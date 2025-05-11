@@ -1,3 +1,106 @@
+# CreditSea Assignment - Full Stack Application Documentation
+# Project Overview
+# The Loan Manager application is designed to manage loan applications. It connects users, verifiers, and admins through different routes and functionalities, allowing for seamless handling of loan applications from submission to approval. The system provides some static statistics and user-friendly interactions via a dynamic dashboard.
+
+# Tech Stack
+# Backend:
+1. # Node.js with JavaScript
+2. # Express.js (for API handling)
+3. # SQL (sqlite3) (Database for storing application data)
+
+# Frontend:
+1. # React.js (for building the dynamic dashboard)
+
+# Hosting/Deployment:
+1. # Vercel for Frontend deployment
+2. # Render for Backend deployment
+
+# Functional Requirements
+# I. User Role and Routes:
+# User:
+1. # Users can fill out an application form for a loan and submit it.
+2. # Users can view their own loan applications.
+
+# Verifier:
+1. # Verifiers can view and process only pending loan applications.
+2. # Verifiers verify the loan applications before forwarding them to the admin.
+
+# Admin:
+1. # Admins can see all verified loan applications.
+2. # Admins have the authority to approve loan applications.
+
+# II. Dashboard Functionalities:
+1. # The dashboard displays real-time statistics:
+2. # Total Applications
+3. # Average Loan Amount
+4. # Users can interact with the dashboard via: Search by name functionality. Sort by amount functionality.
+
+# III. Form and Dashboard Integration:
+1. # The application form allows users to submit loan requests, which are stored in the backend database.
+2. # The submitted data is dynamically reflected in the dashboard for each user, verifier, and admin.
+
+# Key Functionalities
+1. # Form Integration:
+# The application form is connected to the backend via a POST API to accept user input.
+# The form data is validated and stored in the SQL database.
+
+2. # Dashboard:
+# User Dashboard: Displays all loan applications submitted by the users.
+
+# Verifier Dashboard: Displays pending loan applications for and provides an option to verify them.
+
+# Admin Dashboard: Displays verified loan applications and provides an option to approve them.
+
+3. # Search & Sorting Functionality:
+# Search by Name: Users, verifiers, and admins can search applications by the applicant's name.
+
+# Sort by Amount: Users, verifiers and admins can sort loan applications by loan amount for easier processing.
+
+# API Endpoints
+  # GET /loans/
+  # POST /loans/
+  # PUT /loans/id
+  
+# Database Models
+# 1. Loan Application Model
+Fields:
+
+0|id|TEXT|0||1
+1|name|INT|0||0
+2|loan_amount|INT|0||0
+3|loan_tenure|INT|0||0
+4|employment_status|VARCHAR(100)|0||0
+5|employment_address|VARCHAR(300)|0||0
+6|loan_reason|VARCHAR(250)|0||0
+7|loan_status|VARCHAR(200)|0||0
+8|date_applied|DATE|0||0
+
+# Deployment
+# Hosting on Vercel and Render:
+
+# Project Live Link: https://loanmanager-fullstack.vercel.app/
+
+# Github Repository of Backend Code: https://github.com/sairavitejav/loanmanager-backend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
